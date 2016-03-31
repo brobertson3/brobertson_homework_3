@@ -72,9 +72,9 @@ header {
   margin-bottom: 50px;
 }
 
-.logo {
+header .logo {
   color: white;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 800;
   float: left;
 }
@@ -201,6 +201,66 @@ span {
   font-size: 22px;
   font-weight: 600;
 }
+
+.article_2 {
+  margin-bottom: 100px;
+}
+
+.sign_up_now {
+  padding: 20px 0;
+  background-color: #f9e42e;
+  text-align: center;
+}
+
+.sign_up_now button {
+  color: white;
+  background-color: #033048;
+  font-weight: 800;
+  min-width: 100px;
+  width: 12%;
+  padding: 7px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #121212;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 60px; 
+}
+
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  width: 75px;
+}
+
+.twitter, .facebook {
+  display: inline-block;
+}
+
+.twitter {
+  float: left;
+}
+
+.facebook {
+  float: right;
+}
+
+.copywrite {
+  color: white;
+  margin-top: 40px;
+} 
 
 /******************************************
 /* ADDITIONAL STYLES
