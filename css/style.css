@@ -1,0 +1,176 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     background-color: #f0efef;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+/******************************************
+/* HEADER
+/*******************************************/
+
+header {
+  background-color: #033048;
+  padding: 20px 60px;
+  margin-bottom: 50px;
+}
+
+.logo {
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  float: left;
+}
+
+.top_nav {
+  font-weight: 600;
+  font-size: 24px;
+  color: #f9e42e;
+}
+
+.top_nav ul {
+  float: right;
+  padding: 10px 0 0 0;
+}
+
+.top_nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/******************************************
+/* ARTICLE GENERIC
+/*******************************************/
+
+article {
+  float: left;
+  width: 700px;
+  border-bottom: #033048 solid 3px;
+  margin-top: 30px; /* Using margin instead of padding. When to use which */
+  padding-left: 50px;
+}
+
+/* post titles */
+article h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+}
+
+/* Chose margin because I didn't want the image to be pushed in with padding.
+Is that correct? */
+article img {
+  margin: 25px auto;
+  width: 100%;
+}
+
+/* body text */
+article p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #606161;
+}
+
+/* Drop-case styling. I saw on css-tricks.com that p:first-child:first-letter
+should work but when I added the first-child pseudo class selector it broke it.
+From what I read the first-child selector should select the first IMMEDIATE child 
+inside the parent element.  :first-of-type selects the first occurrence of it. */
+article p:first-of-type:first-letter {
+  float: left;
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 60px;
+  padding: 16px 7px 7px 0;
+}
+
+/* It'll work, but maybe should make the other article p element its own class. 
+Cleaner?? More Scalable? */
+.read_more {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+  margin: 45px 0;
+}
+
+.read_more:after {
+  content: ">";
+  margin-left: 3px;
+}
+/******************************************
+/* ARTICLE 1
+/*******************************************/
+
+
+/******************************************
+/* ARTICLE 2
+/*******************************************/
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
