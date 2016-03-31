@@ -164,6 +164,7 @@ aside {
   width: 240px;
   float: left;
   margin-left: 20px;
+  margin-bottom: 50px;
 }
 
 aside h1 {
@@ -177,7 +178,7 @@ aside h1 {
 /*******************************************/
 
 .categories {
-  margin-bottom: 50px;
+  
 }
 
 .categories ul{
@@ -204,6 +205,14 @@ span {
 
 .article_2 {
   margin-bottom: 100px;
+}
+
+/******************************************
+/* AD UNIT
+/*******************************************/
+
+.ad_unit {
+
 }
 
 .sign_up_now {
