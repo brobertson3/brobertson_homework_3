@@ -154,17 +154,52 @@ Cleaner?? More Scalable? */
   content: ">";
   margin-left: 3px;
 }
-/******************************************
-/* ARTICLE 1
-/*******************************************/
-
 
 /******************************************
-/* ARTICLE 2
+/* SIDEBAR
 /*******************************************/
 
-footer {
+aside {
+  color: #033048;
+  width: 240px;
+  float: left;
+  margin-left: 20px;
+}
 
+aside h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+/******************************************
+/* CATEGORIES
+/*******************************************/
+
+.categories {
+  margin-bottom: 50px;
+}
+
+.categories ul{
+  font-size: 24px;
+  font-weight: 300;
+  padding-left: 5px; 
+}
+
+/******************************************
+/* ABOUT RELAXR
+/*******************************************/
+
+.about p { /* el-oh-el */
+  font-size: 22px;
+  font-weight: 300;
+}
+
+/* The Learn More text */
+span {
+  color: #033048;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 /******************************************
