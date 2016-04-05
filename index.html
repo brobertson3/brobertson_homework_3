@@ -19,51 +19,58 @@
 				<h1 class="logo">Relaxr</h1>
 				<nav class="top_nav">
 					<ul>
-						<li>About</li>
-						<li>FAQ</li>
-						<li>Team</li>
-						<li>Contact Us</li>
-						<li>Blog</li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Team</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Blog</a></li>
 					</ul>
 				</nav>
 				<div class="clear"></div>
 			</header>
 
-			<article class="article_1">
-				<h1 class="article">How I implemented Relaxr in 2 weeks and changed my life</h1>
-				<!-- Match main column width. Is is a better way to match the width for a picture?-->
-				<img src="images/blog_photo1.jpg" width="700">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet quis dui eu tincidunt. Maecenas turpis sem, commodo a leo sit amet, pharetra faucibus sapien. Nam nunc sapien, aliquet a ullamcorper at, posuere vel velit. Nunc at lorem in enim mattis porta at id urna. Morbi eu neque et orci ullamcorper cursus. Morbi suscipit rutrum augue eget consectetur. Mauris urna lorem, pretium vulputate erat vitae, dapibus lobortis sem. Quisque eu justo nec nunc blandit tincidunt sit amet lobortis diam.</p>
-				<p class="read_more">Read more</p>
-			</article>
 
-			<aside class="categories">
-				<h1>Categories</h1>
-				<ul>
-					<li>Success Stories</li>
-					<li>Stats</li>
-					<li>How tos</li>
-					<li>Best of</li>
-					<li>Business tips</li>
-				</ul>
-			</aside>
+			<main class="article_block">
+				<article class="article_1">
+					<h1 class="article">How I implemented Relaxr in 2 weeks and changed my life</h1>
+					<!-- Match main column width. Is is a better way to match the width for a picture?-->
+					<img src="images/blog_photo1.jpg" alt="blog photo 1">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet quis dui eu tincidunt. Maecenas turpis sem, commodo a leo sit amet, pharetra faucibus sapien. Nam nunc sapien, aliquet a ullamcorper at, posuere vel velit. Nunc at lorem in enim mattis porta at id urna. Morbi eu neque et orci ullamcorper cursus. Morbi suscipit rutrum augue eget consectetur. Mauris urna lorem, pretium vulputate erat vitae, dapibus lobortis sem. Quisque eu justo nec nunc blandit tincidunt sit amet lobortis diam.</p>
+					<p class="read_more"><a href="#">Read more</a></p>
+				</article>
 
-			<aside class="about">
-				<h1>About Relaxr</h1>
-				<p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.<br><span>Learn More</span></p>
-			</aside>
+				<article class="article_2">
+					<h1 class="article">I traveled across the globe thanks to Relaxr’s Excel automation</h1>
+					<!-- Match main column width. Is is a better way to match the width for a picture? Answered - set the width to 100% in the css-->
+					<img src="images/blog_photo2.jpg" alt="blog photo two">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet quis dui eu tincidunt. Maecenas turpis sem, commodo a leo sit amet, pharetra faucibus sapien. Nam nunc sapien, aliquet a ullamcorper at, posuere vel velit. Nunc at lorem in enim mattis porta at id urna. Morbi eu neque et orci ullamcorper cursus. Morbi suscipit rutrum augue eget consectetur. Mauris urna lorem, pretium vulputate erat vitae, dapibus lobortis sem. Quisque eu justo nec nunc blandit tincidunt sit amet lobortis diam.</p>
+					<p class="read_more"><a href="#">Read more</a></p>
+				</article>
+			</main>
 
-			<aside class="ad_unit">
-				<img src="images/ad-unit.png">
-			</aside>
+			<div class="aside_block">
+				<aside class="categories">
+					<h1>Categories</h1>
+					<ul>
+						<li><a href="#">Success Stories</a></li>
+						<li><a href="#">Stats</a></li>
+						<li><a href="#">How tos</a></li>
+						<li><a href="#">Best of</a></li>
+						<li><a href="#">Business tips</a></li>
+					</ul>
+				</aside>
 
-			<article class="article_2">
-				<h1 class="article">I traveled across the globe thanks to Relaxr’s Excel automation</h1>
-				<!-- Match main column width. Is is a better way to match the width for a picture?-->
-				<img src="images/blog_photo2.jpg">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet quis dui eu tincidunt. Maecenas turpis sem, commodo a leo sit amet, pharetra faucibus sapien. Nam nunc sapien, aliquet a ullamcorper at, posuere vel velit. Nunc at lorem in enim mattis porta at id urna. Morbi eu neque et orci ullamcorper cursus. Morbi suscipit rutrum augue eget consectetur. Mauris urna lorem, pretium vulputate erat vitae, dapibus lobortis sem. Quisque eu justo nec nunc blandit tincidunt sit amet lobortis diam.</p>
-				<p class="read_more">Read more</p>
-			</article>
+				<aside class="about">
+					<h1>About Relaxr</h1>
+					<p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.<br><span><a href="#">Learn More</a></span></p>
+				</aside>
+
+				
+
+				<aside class="ad_unit">
+					<img src="images/ad-unit.png" alt="ad unit">
+				</aside>
+			</div>
 
 			<section class="sign_up_now clear">
 				<button>Sign Up Now!</button>
@@ -73,8 +80,8 @@
 				<h1 class="logo">Relaxr</h1>
 				<nav>
 					<ul>
-						<li class="twitter"><img src="images/twitter.png"height="20"></li>
-						<li class="facebook"><img src="images/facebook.png" height="20"></li>
+						<li class="twitter"><img src="images/twitter.png" alt="twitter icon" height="20"></li>
+						<li class="facebook"><img src="images/facebook.png" alt="facebook icon" height="20"></li>
 					</ul>
 				</nav>
 				<div class="clear"></div>

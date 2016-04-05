@@ -51,7 +51,6 @@ body {
      background-color: #f0efef;
 }
 
-
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -68,7 +67,7 @@ body {
 
 header {
   background-color: #033048;
-  padding: 20px 60px;
+  padding: 0 60px 20px 60px;
   margin-bottom: 50px;
 }
 
@@ -77,12 +76,14 @@ header .logo {
   font-size: 24px;
   font-weight: 800;
   float: left;
+  padding-top: 20px;
 }
 
 .top_nav {
   font-weight: 600;
   font-size: 24px;
   color: #f9e42e;
+  padding-top: 10px;
 }
 
 .top_nav ul {
@@ -91,7 +92,6 @@ header .logo {
 }
 
 .top_nav li {
-  list-style-type: none;
   display: inline-block;
   margin-left: 20px;
 }
@@ -100,11 +100,14 @@ header .logo {
 /* ARTICLE GENERIC
 /*******************************************/
 
+.article_block {
+  float: left;
+  width: 700px;
+}
+
 article {
   float: left;
   width: 700px;
-  border-bottom: #033048 solid 3px;
-  margin-top: 30px; /* Using margin instead of padding. When to use which */
   padding-left: 50px;
 }
 
@@ -148,22 +151,43 @@ Cleaner?? More Scalable? */
   font-weight: 600;
   text-align: right;
   margin: 45px 0;
+  border-bottom: #033048 solid 3px;
+  padding-bottom: 45px;
+  color: #033048;
 }
 
-.read_more:after {
+.read_more a:after {
   content: ">";
   margin-left: 3px;
+}
+
+/******************************************
+/* LINKS
+/*******************************************/
+
+
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit the color from your parent so I don't have to manually
+                     change again for each class. */
+}
+
+a:hover, a:hover::after {
+  color: red;
 }
 
 /******************************************
 /* SIDEBAR
 /*******************************************/
 
+.aside_block {
+  float: left;
+  width: 240px;
+  margin-left: 20px;
+}
+
 aside {
   color: #033048;
-  width: 240px;
-  float: left;
-  margin-left: 20px;
   margin-bottom: 50px;
 }
 
@@ -192,7 +216,7 @@ aside h1 {
   font-weight: 300;
 }
 
-/* The Learn More text */
+/* The "Learn More" text */
 span {
   color: #033048;
   font-size: 22px;
@@ -206,10 +230,6 @@ span {
 /******************************************
 /* AD UNIT
 /*******************************************/
-
-.ad_unit {
-
-}
 
 .sign_up_now {
   padding: 20px 0;
